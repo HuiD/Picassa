@@ -18,6 +18,9 @@ public class ConstantExpression extends Expression{
 	public ConstantExpression(){
 		
 	}
+	/**
+	 * Return the RGBColor which contains the value myValue.
+	 */
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {
 		return new RGBColor(myValue);

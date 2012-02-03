@@ -6,7 +6,7 @@ import java.util.Map;
 import model.RGBColor;
 
 /**
- * 
+ * Cosine, evaluate each component of color as if it were a radian value
  * @author Hui Dong
  *
  */

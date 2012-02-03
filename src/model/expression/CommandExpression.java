@@ -18,20 +18,27 @@ public abstract class CommandExpression extends Expression{
 	
 	
 	public abstract int getOperandNumber();
-
+    
+	/**
+	 * CommandExpression constructor method
+	 */
 	public CommandExpression(){
 		
 	}
 
-	public CommandExpression(List<Expression> list) 
-	{
-		expList = list;
-	}
-
+    
+	/**
+	 * 
+	 * @return the list that contains all the expressions in the expression
+	 */
 	public List<Expression> getExpList() {
 		return expList;
 	}
-
+    
+	/**
+	 * Set the expresison list of the command expression.
+	 * @param expList
+	 */
 	public void setExpList(List<Expression> expList) {
 		this.expList = expList;
 	}

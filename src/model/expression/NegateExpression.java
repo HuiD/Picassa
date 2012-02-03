@@ -16,12 +16,6 @@ public class NegateExpression extends CommandExpression{
 		return OPERAND_NUMBER;
 	}
 
-	public NegateExpression(List<Expression> list) {
-		super(list);
-	}
-
-	public NegateExpression(){}
-	
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {
 		List<Expression> list = getExpList();

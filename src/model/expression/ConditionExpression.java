@@ -4,7 +4,12 @@ import java.util.List;
 import java.util.Map;
 
 import model.RGBColor;
-
+/**
+ * Conditional expressions contains three parameters, the first parameter will give the 
+ * condition statement, while the other two give the value.
+ * @author Hui Dong
+ *
+ */
 public class ConditionExpression extends CommandExpression {
 	private static final int OperandNumber = 3;
     /**

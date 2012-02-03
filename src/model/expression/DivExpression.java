@@ -13,14 +13,9 @@ public class DivExpression extends CommandExpression{
 		return OPERAND_NUMBER;
 	}
 
-	
-	public DivExpression(List<Expression> list) {
-		super(list);
-	}
 
-	public DivExpression(){
-		
-	}
+
+
 	
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {

@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Compute the average value of each color component and generate the RGBColor
+ * @author Hui Dong
+ *
+ */
 public final class AverageExpression extends CommandExpression{
 	private static final int OperandNumber = -1;
 	public int getOperandNumber() {

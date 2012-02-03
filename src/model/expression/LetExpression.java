@@ -4,7 +4,12 @@ import java.util.List;
 import java.util.Map;
 import model.ParserException;
 import model.RGBColor;
-
+/**
+ * Let expression will assign value of an expression to an variable name. The value of the variable name
+ * is given by the second expression of the let expression.
+ * @author Hui Dong
+ *
+ */
 public class LetExpression extends CommandExpression {
 	private static int OPERAND_NUMBER = 3;
 	@Override

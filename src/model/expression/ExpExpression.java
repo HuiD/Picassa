@@ -3,7 +3,11 @@ package model.expression;
 import java.util.List;
 import java.util.Map;
 import model.RGBColor;
-
+/**
+ * Takes an value to exponent.
+ * @author Hui Dong
+ *
+ */
 public class ExpExpression extends CommandExpression{
 	
 	private static final int OPERAND_NUMBER = 2;
@@ -12,14 +16,6 @@ public class ExpExpression extends CommandExpression{
 		return OPERAND_NUMBER;
 	}
 
-	public ExpExpression(List<Expression> list) {
-		super(list);
-	}
-	
-	public ExpExpression(){
-		
-	}
-	
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {
 		List<Expression> list = getExpList();

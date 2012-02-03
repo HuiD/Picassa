@@ -1,6 +1,5 @@
 package model.expression;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -19,15 +18,7 @@ public class ModExpression extends CommandExpression{
 	}
 	
 	
-	public ModExpression(List<Expression> list) {
-		super(list);
-	}
 
-
-	public ModExpression(String command, ArrayList<Expression> list,
-			RGBColor value) {
-		super(list);
-	}
 
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {

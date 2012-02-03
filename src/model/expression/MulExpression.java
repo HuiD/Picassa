@@ -15,18 +15,10 @@ public class MulExpression extends CommandExpression{
 		return OPERAND_NUMBER;
 	}
 
-	public MulExpression(List<Expression> list) {
-		super(list);
-		// TODO Auto-generated constructor stub
-	}
-	
-	public MulExpression(){
-		
-	}
+
 
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {
-		// TODO Auto-generated method stub
 		List<Expression> list = getExpList();
 		RGBColor operand1 = list.get(0).evaluate(map);
 		RGBColor operand2 = list.get(1).evaluate(map);

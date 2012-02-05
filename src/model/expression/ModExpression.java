@@ -6,6 +6,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Take the modulus of two variables
+ * @author Hui Dong
+ *
+ */
 public class ModExpression extends CommandExpression{
 	private static final int OPERAND_NUMBER = 2;
 	

@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Sine, evaluate each color component as if it were a radian value
+ * @author Hui Dong
+ *
+ */
 public class SinExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 1;
 	@Override

@@ -8,7 +8,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
-
+/**
+ * Inverts a given color
+ * @author Hui Dong
+ *
+ */
 public class NegateExpression extends CommandExpression{
 	private static final int OPERAND_NUMBER = 1;
 	

@@ -8,6 +8,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Multiply two variables
+ * @author Hui Dong
+ *
+ */
 public class MulExpression extends CommandExpression{
 	private static final int OPERAND_NUMBER = 2;
 	

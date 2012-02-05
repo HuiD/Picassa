@@ -5,6 +5,11 @@ import java.util.Random;
 
 import model.RGBColor;
 
+/**
+ * Generate a random color
+ * @author Hui Dong
+ *
+ */
 public class RandomExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 0;
 	private Random random;

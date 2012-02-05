@@ -5,7 +5,7 @@ import java.util.Map;
 import model.RGBColor;
 
 /**
- * arc tangent, evaluate each component of color as if it were a radian value
+ * Arc tangent, evaluate each component of color as if it were a radian value
  * @author Hui Dong
  *
  */

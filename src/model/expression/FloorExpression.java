@@ -4,7 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 import model.RGBColor;
-
+/**
+ * Roud down the value
+ * @author Hui Dong
+ *
+ */
 public class FloorExpression extends CommandExpression{
 	
 	private static final int OPERAND_NUMBER = 1;

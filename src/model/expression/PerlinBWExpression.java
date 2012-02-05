@@ -6,6 +6,11 @@ import java.util.Map;
 import model.RGBColor;
 import model.util.PerlinNoise;
 
+/**
+ * Create grey scale color based on two given values
+ * @author Hui Dong
+ *
+ */
 public class PerlinBWExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 2;
 	@Override

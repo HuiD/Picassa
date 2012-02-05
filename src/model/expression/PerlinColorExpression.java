@@ -6,6 +6,11 @@ import java.util.Map;
 import model.RGBColor;
 import model.util.PerlinNoise;
 
+/**
+ * create random color based on two given values
+ * @author Hui Dong
+ *
+ */
 public class PerlinColorExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 2;
 	@Override

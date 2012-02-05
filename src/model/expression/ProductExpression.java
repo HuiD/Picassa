@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Generate the product for all the variables for each color component. 
+ * @author Hui Dong
+ *
+ */
 public class ProductExpression extends CommandExpression{
 	private static final int OperandNumber = -1;;
 

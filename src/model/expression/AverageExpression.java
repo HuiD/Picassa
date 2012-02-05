@@ -13,13 +13,11 @@ import model.RGBColor;
 public final class AverageExpression extends CommandExpression{
 	private static final int OperandNumber = -1;
 	public int getOperandNumber() {
-		// TODO Auto-generated method stub
 		return OperandNumber;
 	}
 
 	@Override
 	public RGBColor evaluate(Map<String, Expression> map) {
-		// TODO Auto-generated method stub
 		List<Expression> list = getExpList();
 		double redSum = 0;
 		double greenSum = 0;

@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Sum the value of variables for each color component.
+ * @author Hui Dong
+ *
+ */
 public class SumExpression extends CommandExpression{
 	private static final int OperandNumber = -1;;
 	@Override

@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.Map;
 import model.RGBColor;
 
+/**
+ * Compute the difference of the value of two variables.
+ * @author Hui Dong
+ *
+ */
 public class MinusExpression extends CommandExpression{
 
 	private static final int OPERAND_NUMBER = 2;

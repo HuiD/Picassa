@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Plus the value of two variables for each color component.
+ * @author ChristD
+ *
+ */
 public class PlusExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 2;
 	

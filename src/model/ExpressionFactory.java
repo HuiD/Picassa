@@ -63,6 +63,11 @@ public class ExpressionFactory {
 	private static final String PRODUCT = "product";
 	private static final String IF = "if";
 
+	/**
+	 * Define the expression type
+	 * @author Hui Dong
+	 *
+	 */
 	private static enum EXPRESSION_TYPE {
 		XY_EXPRESSION, CONSTANT_EXPRESSION, COMMAND_EXPRESSION;
 		public static EXPRESSION_TYPE getType(int i) {
@@ -84,6 +89,10 @@ public class ExpressionFactory {
 		buildMap();
 	}
 
+	/**
+	 * 
+	 * @return the current position of the input string
+	 */
 	public int getMyCurrentPosition() {
 		return myCurrentPosition;
 	}
@@ -147,6 +156,11 @@ public class ExpressionFactory {
 		}
 	}
 
+	/**
+	 * 
+	 * @param pattern defines the pattern of the input
+	 * @return a string according to the pattern
+	 */
 	private String getMatch(Pattern pattern) {
 		Matcher variableMatcher = pattern.matcher(myInput);
 		variableMatcher.find(myCurrentPosition);
@@ -236,18 +250,29 @@ public class ExpressionFactory {
 		CommandExpressionMap.put(IF, new ConditionExpression());
 	}
 
+	/**
+	 * Skip white space
+	 */
 	private void skipWhiteSpace() {
 		while (notAtEndOfString() && Character.isWhitespace(currentCharacter())) {
 			myCurrentPosition += 1;
 		}
 	}
 
+	/**
+	 * 
+	 * @return the current character
+	 */
 	private char currentCharacter() {
 		if(myCurrentPosition >= myInput.length())
 			throw new ParserException("Expected )");
 		return myInput.charAt(myCurrentPosition);
 	}
 
+	/**
+	 * 
+	 * @return true if the end of the string is not reached.
+	 */
 	private boolean notAtEndOfString() {
 		return myCurrentPosition < myInput.length();
 	}

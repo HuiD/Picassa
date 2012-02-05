@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Convert color to luminance / chrominance space.
+ * @author Hui Dong
+ *
+ */
 public class RGB2YCrCbExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 1;
 	@Override

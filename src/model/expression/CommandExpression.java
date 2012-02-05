@@ -16,7 +16,10 @@ public abstract class CommandExpression extends Expression{
 	
 	private List<Expression> expList= new ArrayList<Expression>();
 	
-	
+	/**
+	 * 
+	 * @return the number of operand for the command expression.
+	 */
 	public abstract int getOperandNumber();
     
 	/**

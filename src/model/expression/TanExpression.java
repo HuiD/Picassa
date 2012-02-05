@@ -4,6 +4,11 @@ import java.util.List;
 import java.util.Map;
 import model.RGBColor;
 
+/**
+ * Tangent, evaluate each color component as if it were a radian value.
+ * @author Hui Dong
+ *
+ */
 public class TanExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER =1 ;
 	@Override

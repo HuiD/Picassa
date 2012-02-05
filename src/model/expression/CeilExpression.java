@@ -7,7 +7,7 @@ import model.RGBColor;
 
 /**
  * round up the value;
- * @author ChristD
+ * @author Hui Dong
  *
  */
 public class CeilExpression extends CommandExpression {

@@ -4,8 +4,14 @@ import java.util.List;
 import java.util.Map;
 
 import model.RGBColor;
-
+/**
+ * 	
+ * Compute the logarithm (base e) of the variable.
+ * @author Hui Dong
+ *
+ */
 public class LogExpression extends CommandExpression {
+
 	private static final int OPERAND_NUMBER = 1;
 	@Override
 	public int getOperandNumber() {

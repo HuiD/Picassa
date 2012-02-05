@@ -4,7 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 import model.RGBColor;
-
+/**
+ * Wrap the results to [-1,1]
+ * @author ChristD
+ *
+ */
 public class WrapExpression extends CommandExpression {
 	private static final int OPERAND_NUMBER = 1;
 	@Override

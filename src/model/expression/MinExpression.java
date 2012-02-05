@@ -4,7 +4,12 @@ import java.util.List;
 import java.util.Map;
 
 import model.RGBColor;
-
+/**
+ * Obtain the minimum color value of all the variables, then assign the value
+ * each color component.
+ * @author Hui Dong
+ *
+ */
 public class MinExpression extends CommandExpression{
 	private static final int OperandNumber = -1;
 

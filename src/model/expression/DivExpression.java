@@ -5,6 +5,11 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Compute the quotient of two variables' value
+ * @author Hui Dong
+ *
+ */
 public class DivExpression extends CommandExpression{
 	
 	private static final int OPERAND_NUMBER = 2;

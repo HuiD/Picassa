@@ -5,6 +5,12 @@ import java.util.Map;
 
 import model.RGBColor;
 
+/**
+ * Obtain the maximum color value of all the variables, then assign the value
+ * each color component.
+ * @author Hui Dong
+ *
+ */
 public class MaxExpression extends CommandExpression{
 
 	private static final int OperandNumber = -1;

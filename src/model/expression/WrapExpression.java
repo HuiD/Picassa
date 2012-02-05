@@ -6,7 +6,7 @@ import java.util.Map;
 import model.RGBColor;
 /**
  * Wrap the results to [-1,1]
- * @author ChristD
+ * @author Hui Dong
  *
  */
 public class WrapExpression extends CommandExpression {
